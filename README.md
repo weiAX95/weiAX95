@@ -10,18 +10,21 @@
   
   <!-- GitHub 统计信息 -->
   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=weiAX95&show_icons=true&theme=transparent&count_private=true&hide_border=true&include_all_commits=true&hide_title=true&bg_color=00000000&hide_rank=true&show_icons=true&custom_title=GitHub%20Stats)
-  
-  <!-- 最常用语言统计 -->
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=weiAX95&layout=compact&theme=transparent&hide_border=true)
-  
-  <!-- GitHub 连续打卡记录 -->
-  [![GitHub Streak](https://streak-stats.demolab.com/?user=weiAX95&theme=transparent&hide_border=true)](https://git.io/streak-stats)
 
   <!-- 奖杯统计 -->
   ![Trophies](https://github-profile-trophy.vercel.app/?username=weiAX95&theme=flat&no-frame=true&row=1)
 
+  <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <!-- 最常用语言统计 -->
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiAX95&layout=compact&theme=transparent&hide_border=true" width="45%" />
+    
+    <!-- GitHub 连续打卡记录 -->
+    <img src="https://streak-stats.demolab.com/?user=weiAX95&theme=transparent&hide_border=true" width="50%" />
+  </div>
+
   <!-- 3D贡献图 -->
-  ![3D Profile](profile-3d-contrib/profile-rainbow.svg)
+  <img src="profile-3d-contrib/profile-rainbow.svg" alt="3D Profile" width="100%" style="margin-top: 20px;" />
+
 </div>
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> 关于我 | About Me
