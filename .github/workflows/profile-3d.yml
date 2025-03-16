@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Create Output Directory
+      - name: Create output directory
         run: mkdir -p profile-3d-contrib
 
       - name: Generate 3D Contribution Graph
@@ -27,14 +27,12 @@ jobs:
           MAX_REPOS: 250
           OUTPUT_PATH: "profile-3d-contrib/profile-rainbow.svg"
 
-      - name: Check Generated Files
-        run: ls -R
-
       - name: Push Changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add profile-3d-contrib/profile-rainbow.svg
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -f profile-3d-contrib/
           git commit -m "Generate 3D Contribution Graph" || exit 0
-          git pull --rebase origin main
+          git fetch origin main
+          git rebase origin/main
           git push origin main
