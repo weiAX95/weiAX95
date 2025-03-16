@@ -21,7 +21,7 @@
   ![Trophies](https://github-profile-trophy.vercel.app/?username=weiAX95&theme=flat&no-frame=true&row=1)
 
   <!-- 3D贡献图 -->
-  ![3D Profile](./profile-3d-contrib/profile-rainbow.svg)
+  ![3D Profile](profile-3d-contrib/profile-rainbow.svg)
 </div>
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> 关于我 | About Me
