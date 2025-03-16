@@ -19,6 +19,9 @@
 
   <!-- 奖杯统计 -->
   ![Trophies](https://github-profile-trophy.vercel.app/?username=weiAX95&theme=flat&no-frame=true&row=1)
+
+  <!-- 3D贡献图 -->
+  ![3D Profile](./profile-3d-contrib/profile-rainbow.svg)
 </div>
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> 关于我 | About Me
@@ -61,12 +64,6 @@
 <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" style="margin:5px"/>
 
 </div>
-
-<!-- 活动图表 -->
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=weiAX95&theme=github-light&hide_border=true&area=true)
-
-<!-- Snake贡献图 -->
-![Snake animation](https://github.com/weiAX95/weiAX95/blob/output/github-contribution-grid-snake.svg)
 
 <!-- 访问统计 -->
 ![Profile Views](https://komarev.com/ghpvc/?username=weiAX95&color=brightgreen&style=flat-square)
