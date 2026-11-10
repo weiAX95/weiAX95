@@ -1,6 +1,7 @@
 <div align="center">
 
 <img src="./assets/profile-header.svg" width="100%" alt="weiAX95 — Frontend engineering and AI applications" />
+<img src="./assets/profile-accent.gif" width="78%" alt="" />
 
 ### 前端工程化 · AI 应用 · 实现与验证
 Frontend engineering · AI applications · Building & validating
