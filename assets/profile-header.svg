@@ -16,30 +16,18 @@
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#b8c4e3" stroke-opacity=".08"/>
     </pattern>
     <clipPath id="panel"><rect x="1" y="1" width="1198" height="258" rx="22"/></clipPath>
-    <style>
-      .orbit { transform-origin: 1040px 130px; animation: orbit 20s linear infinite; }
-      .glow { animation: glow 4s ease-in-out infinite alternate; }
-      .dash { stroke-dasharray: 90 210; animation: travel 8s linear infinite; }
-      @keyframes orbit { to { transform: rotate(360deg); } }
-      @keyframes glow { to { opacity: .75; } }
-      @keyframes travel { to { stroke-dashoffset: -300; } }
-      @media (prefers-reduced-motion: reduce) {
-        .orbit, .glow, .dash { animation: none; }
-      }
-    </style>
   </defs>
   <g clip-path="url(#panel)">
     <rect width="1200" height="260" fill="url(#background)"/>
     <rect width="1200" height="260" fill="url(#grid)"/>
-    <circle cx="1040" cy="130" r="146" fill="#38bdf8" opacity=".08" class="glow"/>
+    <circle cx="1040" cy="130" r="146" fill="#38bdf8" opacity=".08"/>
     <circle cx="1040" cy="130" r="95" fill="none" stroke="#7dd3fc" stroke-opacity=".32"/>
     <circle cx="1040" cy="130" r="65" fill="none" stroke="#a5b4fc" stroke-opacity=".22"/>
-    <g class="orbit">
+    <g>
       <circle cx="1040" cy="35" r="5" fill="#5eead4"/>
       <circle cx="1040" cy="225" r="3" fill="#a5b4fc"/>
     </g>
     <path d="M 0 226 C 180 198, 305 254, 490 228 S 895 194, 1200 218" fill="none" stroke="url(#accent)" stroke-opacity=".25" stroke-width="2"/>
-    <path d="M 0 226 C 180 198, 305 254, 490 228 S 895 194, 1200 218" fill="none" stroke="url(#accent)" stroke-width="3" class="dash"/>
     <text x="68" y="67" fill="#5eead4" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700" letter-spacing="4">HELLO, WORLD</text>
     <text x="64" y="139" fill="#f8fafc" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="60" font-weight="750">I'm weiAX95<tspan fill="#5eead4">.</tspan></text>
     <text x="68" y="181" fill="#b7c6dc" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21">Frontend engineering  /  AI applications</text>
